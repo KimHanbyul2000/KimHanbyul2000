@@ -12,7 +12,6 @@ KIST(한국과학기술연구원) TACO Lab 소속으로 계산신경과학을 �
 ## 현재 작업 중
 
 - TACO Lab 연구 프로젝트
-- GitHub Pages 기반 연구소 웹사이트
 
 ## 링크
 
