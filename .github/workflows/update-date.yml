@@ -1,0 +1,30 @@
+# main 에 push 될 때마다 README 맨 아래 "마지막 업데이트" 날짜를 그날(KST)로 고친다.
+name: Update README date
+
+on:
+  push:
+    branches: [main]
+    paths: [README.md]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 날짜 갱신
+        run: |
+          today=$(TZ=Asia/Seoul date +%F)
+          sed -i -E "s|<!--updated-->[0-9-]+<!--/updated-->|<!--updated-->${today}<!--/updated-->|" README.md
+
+      - name: 바뀌었으면 커밋
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: README 업데이트 날짜 갱신"
+          git push

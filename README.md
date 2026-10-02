@@ -8,8 +8,9 @@ KIST(한국과학기술연구원) 뇌과학연구소 뇌융합연구단 TACO Lab
 
 - 뉴로모픽 컴퓨팅 (Neuromorphic Computing)
 - 스파이킹 신경망 (Spiking Neural Networks)
-- 계산신경과학 — 소뇌, 기저핵 정보 처리 메커니즘
-- 재활의학 / 데이터 분석
+- 계산신경과학 (Computational Neuroscience) — 소뇌 (Cerebellum), 기저핵 (Basal Ganglia)
+- 시냅스 가소성 (Synaptic Plasticity) · 신경조절 (Neuromodulation)
+- 도구 — Brian2 / NEURON, Python
 
 ## 현재 작업 중
 
@@ -55,4 +56,20 @@ KIST(한국과학기술연구원) 뇌과학연구소 뇌융합연구단 TACO Lab
 
 ---
 
-<sub>마지막 업데이트: 2026-10-02</sub>
+## English
+
+Research Intern at KIST TACO Lab, Center for Brain Convergence Research, Brain Science Institute (May 2026 – Jan 2027). I model cerebellar circuits as spiking neural networks (SNNs) and study the computational principles that carry over to neuromorphic hardware — building on biomedical engineering (major), semiconductors (minor) and medical AI (K-Digital Training).
+
+**Interests** — Neuromorphic Computing · Spiking Neural Networks · Computational Neuroscience (cerebellum, basal ganglia) · Synaptic Plasticity · Neuromodulation · Brian2 / NEURON · Python
+
+**Now**
+- SNN modeling and dynamical analysis of cerebellar circuits; plasticity-control algorithms under neuromodulators (TACO Lab)
+- Participating researcher in a national R&D project: *Development of original cerebellum-inspired semiconductor technology integrated with non-volatile memory for real-time predictive control of physical AI systems* (May – Dec 2026)
+- Preparing for a master's program
+
+**Links** — [Website](https://kimhanbyul2000.github.io) · [Career portfolio](https://kimhanbyul2000.github.io/CV_Portfolio/) · [ai-research-harness](https://github.com/KimHanbyul2000/ai-research-harness) · [TACO Lab](https://taco-lab.net)
+
+---
+
+<!-- 아래 날짜는 .github/workflows/update-date.yml 이 main 에 push 될 때마다 자동으로 고친다 -->
+<sub>마지막 업데이트 · Last updated: <!--updated-->2026-10-02<!--/updated--></sub>
