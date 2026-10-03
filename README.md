@@ -72,4 +72,4 @@ Research Intern at KIST TACO Lab, Center for Brain Convergence Research, Brain S
 ---
 
 <!-- 아래 날짜는 .github/workflows/update-date.yml 이 main 에 push 될 때마다 자동으로 고친다 -->
-<sub>마지막 업데이트 · Last updated: <!--updated-->2026-10-02<!--/updated--></sub>
+<sub>마지막 업데이트 · Last updated: <!--updated-->2026-10-03<!--/updated--></sub>
